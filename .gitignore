@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Builds & Outputs
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.local
+
+# SQLite Local Database
+prisma/dev.db
+prisma/dev.db-journal
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
